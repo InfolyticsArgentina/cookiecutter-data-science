@@ -78,6 +78,7 @@ The directory structure of your new project looks like this:
 │   │
 │   ├── data           <- Scripts to download or generate data
 │   │   └── make_dataset.py
+│   │   ├── followup   <- Scripts to generate data for test and compare models
 │   │
 │   ├── features       <- Scripts to turn raw data into features for modeling
 │   │   └── build_features.py
@@ -86,9 +87,12 @@ The directory structure of your new project looks like this:
 │   │   │                 predictions
 │   │   ├── predict_model.py
 │   │   └── train_model.py
+│   │   ├── followup   <- Scripts for test and compare models
 │   │
 │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
 │       └── visualize.py
+│   │
+│   ├── utils         <- miscellaneous functions 
 │
 └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
 ```
